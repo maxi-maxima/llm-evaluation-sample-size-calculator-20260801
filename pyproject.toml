@@ -1,0 +1,11 @@
+[project]
+name = "llm-evaluation-sample-size-calculator-20260801"
+version = "0.1.0"
+description = "Estimate LLM eval sample size and token cost before changing prompts or models."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "maxi-maxima"}]
+
+[project.scripts]
+llm-evaluation-sample-size-calculator-20260801 = "llm_evaluation_sample_size_calculator_20260801.cli:main"
