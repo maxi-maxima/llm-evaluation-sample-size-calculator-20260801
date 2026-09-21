@@ -10,6 +10,7 @@ AI Agent 团队正在从演示走向生产门禁。成本控制、评测质量�
 
 ```bash
 python -m llm_evaluation_sample_size_calculator_20260801.cli --baseline 0.72 --target 0.80 --input-tokens 1500 --output-tokens 600 --input-price 1 --output-price 5
+python -m llm_evaluation_sample_size_calculator_20260801.cli --scenarios-csv examples/scenarios.csv
 python -m unittest discover -s tests
 ```
 
@@ -25,6 +26,5 @@ python -m unittest discover -s tests
 
 ## 路线图
 
-- CSV 多场景对比
 - 支持非二元评分
 - CI 成本门禁模式

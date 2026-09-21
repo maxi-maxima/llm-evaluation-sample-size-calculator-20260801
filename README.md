@@ -10,6 +10,7 @@ AI agent teams are moving from demos to production gates. Cost control, eval qua
 
 ```bash
 python -m llm_evaluation_sample_size_calculator_20260801.cli --baseline 0.72 --target 0.80 --input-tokens 1500 --output-tokens 600 --input-price 1 --output-price 5
+python -m llm_evaluation_sample_size_calculator_20260801.cli --scenarios-csv examples/scenarios.csv
 python -m unittest discover -s tests
 ```
 
@@ -25,6 +26,5 @@ python -m unittest discover -s tests
 
 ## Roadmap
 
-- CSV scenario comparison
 - Non-binary score support
 - CI budget gate mode
